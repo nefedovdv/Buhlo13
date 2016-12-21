@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Расходы</string>
+    <string name="action_settings">Резервная копия</string>
+    <string name="nameItem">Название товара(не больше пяти) </string>
+    <string name="add_button">Добавить</string>
+    <string name="Finish_button">Закончить</string>
+    <string name="name_item">Наименование</string>
+    <string name="Price">Цена</string>
+    <string name="ClearDb">Очистить БД</string>
+    <string name="ClearSettings">Удалить настройки</string>
+    <string name="DeleteItem">Удалить? (потяни для отмены)</string>
+    <string name="ConfirmDeleteButton">Да</string>
+    <string name="currency"> руб.</string>
+    <string name="restoreDb">Восстановить БД</string>
+    <string name="textViewListActivity">Суммарно</string>
+
+</resources>

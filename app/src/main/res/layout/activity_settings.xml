@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:paddingTop="50dp"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nameItem"
+    />
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name_item"
+            android:id="@+id/editTextName" android:inputType="textCapSentences"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Price"
+            android:id="@+id/editTextPrice" android:inputType="number"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clickSaveSettings"
+            android:text="@string/add_button"
+            android:layout_gravity="right"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Finish_button"
+            android:onClick="buttonFinishClick"
+            android:layout_gravity="right"/>
+</LinearLayout>

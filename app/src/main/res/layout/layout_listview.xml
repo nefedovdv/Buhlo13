@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:id="@+id/LinearLayoutListView">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="name"
+            android:id="@+id/textViewName" android:layout_alignParentTop="true" android:layout_alignParentStart="true"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:clickable="false" android:textSize="16dp" android:paddingLeft="8dp" android:paddingTop="8dp"/>
+    <TextView
+            android:layout_width="20dp"
+            android:layout_height="48dp"
+            android:text="-"
+            android:fontFamily="sans-serif"
+            android:textSize="16dp"
+            android:id="@+id/textView2" android:paddingTop="8dp" android:paddingLeft="5dp"/>
+    <TextView
+            android:layout_width="60dp"
+            android:layout_height="48dp"
+            android:text="price"
+            android:fontFamily="sans-serif"
+            android:id="@+id/textViewPrice"
+            android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+            android:textAlignment="textEnd" android:maxWidth="60dp" android:paddingTop="8dp" android:textSize="16dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="@string/currency"
+            android:fontFamily="sans-serif"
+            android:id="@+id/textView" android:paddingLeft="2dp" android:paddingTop="8dp" android:textSize="16dp"/>
+    <TextView
+            android:layout_width="80dp"
+            android:layout_height="48dp"
+            android:text="date"
+            android:id="@+id/textViewDate"
+            android:layout_alignBottom="@+id/textViewPrice" android:layout_alignParentEnd="true"
+            android:textAlignment="textEnd" android:paddingStart="4dp"
+            android:fontFamily="sans-serif"
+            android:paddingRight="16dp" android:paddingTop="8dp" android:textSize="16dp"/>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/swiperefresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/list"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.72" android:paddingBottom="8dp" android:paddingTop="8dp"
+                android:footerDividersEnabled="false"/>
+    </android.support.v4.widget.SwipeRefreshLayout>
